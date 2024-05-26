@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>www.MyTutorials.com</title>
+    </head>
+    <body>
+        <h1 id="header1">Hello!</h1>
+        <input type="text" id="inp"/>
+        <button onclick="pressed()">Click</button>
+        <script type="text/javascript">
+            function pressed(){
+                var text = document.getElementById("inp").value;
+                if (text == "red"){
+                    document.getElementById("header1").style.color = "red";
+
+                }
+                else if (text == "green"){
+                    document.getElementById("header1").style.color = "green";
+
+
+                }
+                else if (text == "blue"){
+                    document.getElementById("header1").style.color = "blue";
+                }
+                else{
+                    document.getElementById("header1").style.color = "black";
+                    
+                }
+
+                }
+            
+        </script>
+    </body>
+</html>
